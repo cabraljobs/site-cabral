@@ -4,19 +4,18 @@
 }
 .cabeçalho{
     background-color: #1c016bb4
-    ; color: white;
-    display: flex;   
+    ; color: white;  
     justify-content: space-around;
-    align-items: center;
     padding: 24px;
+    display: flex;
 }
 
 .C-logo{
     width: 7%;
 }
 
-.produtos-cabeçalho{
-    display: inline-block;
-    margin: 15px ;
+.produto-cabeçalho{
+    display: grid;
+    margin: 24px;
     font-size: 24px;
 }
