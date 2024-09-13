@@ -1,7 +1,22 @@
-header{
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.cabeçalho{
     background-color: #1c016bb4
     ; color: white;
+    display: flex;   
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
 }
- body{
-    color: aqua;
- }
+
+.C-logo{
+    width: 7%;
+}
+
+.produtos-cabeçalho{
+    display: inline-block;
+    margin: 15px ;
+    font-size: 24px;
+}
